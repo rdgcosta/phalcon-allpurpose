@@ -32,10 +32,10 @@ if(!empty($_SERVER['DOCUMENT_ROOT']))
 return new Phalcon\Config([
     'database' => [
         'adapter'     => 'Mysql',
-        'host'        => 'localhost',
-        'username'    => 'root',
-        'password'    => 'root',
-        'dbname'      => 'phalcon',
+        'host'        => '######host######',
+        'username'    => '######user######',
+        'password'    => '######pass######',
+        'dbname'      => '######db######',
         'charset'     => 'utf8',
         'logQueries'  => true,
         'logFile'     => 'queries.log',
